@@ -1,1 +1,6 @@
-alert('js carregado');
+var vue = new Vue({
+    el: '#app',
+    data: {
+        message: 'Vue funcionando'
+    }
+})
